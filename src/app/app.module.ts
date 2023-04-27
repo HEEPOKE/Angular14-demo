@@ -10,6 +10,7 @@ import { UsersComponent } from './pages/users/users.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { TableComponent } from './components/table/table.component';
 import { HomeComponent } from './pages/home/home.component';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { HomeComponent } from './pages/home/home.component';
     MatToolbarModule,
     MatIconModule,
     MatMenuModule,
+    MatTableModule,
     AppRoutingModule,
     BrowserAnimationsModule,
   ],
