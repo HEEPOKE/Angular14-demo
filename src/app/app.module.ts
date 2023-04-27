@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,6 +23,7 @@ import { HomeComponent } from './pages/home/home.component';
     BrowserModule,
     MatToolbarModule,
     MatIconModule,
+    MatMenuModule,
     AppRoutingModule,
     BrowserAnimationsModule,
   ],
